@@ -97,11 +97,6 @@ namespace Richasy.Bili.App.Controls
                 AppViewModel.Instance.SetOverlayContentId(Models.Enums.PageIds.Search);
                 await ViewModel.SearchAsync();
             }
-
-        }
-
-        private void AutoSuggestBox_SuggestionChosen(Windows.UI.Xaml.Controls.AutoSuggestBox sender, Windows.UI.Xaml.Controls.AutoSuggestBoxSuggestionChosenEventArgs args)
-        {
         }
     }
 }
